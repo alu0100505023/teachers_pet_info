@@ -3,9 +3,12 @@
 *./lib/teachers_pet/actions/create_student_teams.rb*
 
 ####Description
-Create a student team in a organization
+Create teams for each student (or student group), and a team for all the instructors.
 
 ####Command line
 ```bash
 teachers_pet create_student_teams [organization]
 ```
+
+###Descriptions of parameters
+[organization]
