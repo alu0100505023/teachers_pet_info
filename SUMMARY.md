@@ -9,7 +9,7 @@
    * [create_repos](createrepos.md)
    * [create_student_teams](createstudent_teams.md)
    * [forks](forks.md)
-   * help
+   * [help](help.md)
    * merge_pull_requests
    * open_issue
    * push_files
