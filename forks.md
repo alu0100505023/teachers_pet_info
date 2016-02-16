@@ -1,6 +1,6 @@
 # forks
 
-*./lib/teachers_pet/actions/add_collabolators.rb*
+*./lib/teachers_pet/actions/forks.rb*
 
 ####Description
 Pull the list of users who have forked a particular repository.
