@@ -14,7 +14,7 @@ teachers_pet create_repos [organization] [repository] [public]
 
 [repository]
 
-[public] : boolean (optional parameter).
+[public] : boolean (Optional parameter).
 
 "Make the repositories public". Default : false.
 
