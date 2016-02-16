@@ -1,8 +1,5 @@
 # help
 
-*./lib/teachers_pet/actions/add_collabolators.rb*
-
-
 ####Description
 Provides information for a specific command.
 
