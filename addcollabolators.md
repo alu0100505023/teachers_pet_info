@@ -9,7 +9,7 @@ Give collaborator access to each provided user.
 ```bash
 teachers_pet add_collabolators [repository] [members] [dryrun]
 ```
-####Descriptions of parameters expected
+####Descriptions of parameters
 
 [repository] : 'OWNER/REPO'
 
