@@ -13,4 +13,5 @@
    * merge_pull_requests
    * open_issue
    * push_files
+   * version
 
