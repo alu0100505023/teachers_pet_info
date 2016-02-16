@@ -9,7 +9,7 @@ teachers_pet
 1. teachers_pet add_collaborators
 2. teachers_pet add_to_team
 3.  teachers_pet clone_repos 
-4.  teachers_pet create_repos TORY  
+4.  teachers_pet create_repos 
 5.   teachers_pet create_student_teams 
 6.   teachers_pet forks 
 7.  teachers_pet help          
