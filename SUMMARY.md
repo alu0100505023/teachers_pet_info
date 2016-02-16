@@ -9,4 +9,5 @@
    * create_repos
    * create_student_teams
    * forks
+   * help
 
