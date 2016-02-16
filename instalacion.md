@@ -17,6 +17,6 @@ If you've used this tool before, get the newest version using
 gem update teachers_pet
 ```
 
-###List of gems needed
+Modify *lib/teachers_pet/configuration.rb* to add the specific information of your application. 
 
 
