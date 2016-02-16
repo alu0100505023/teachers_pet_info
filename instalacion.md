@@ -20,4 +20,3 @@ gem update teachers_pet
 ###List of gems needed
 
 
-To use the latest-and-greatest code from this repository, see the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
