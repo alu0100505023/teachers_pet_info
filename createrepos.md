@@ -1,6 +1,6 @@
 # create_repos
 
-*./lib/teachers_pet/actions/add_collabolators.rb*
+*./lib/teachers_pet/actions/create_repos.rb*
 
 ####Description
 Create a repository in a Organization.
