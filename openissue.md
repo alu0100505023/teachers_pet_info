@@ -25,4 +25,5 @@ The title of the issue to be created
 The path to the file containing the issue body (.txt or .md)
 
 [labels] : 'label' (Optional parameter)
+
 label: LABEL1,LABEL2
