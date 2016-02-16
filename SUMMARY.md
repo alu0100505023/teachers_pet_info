@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduccion](README.md)
+* [Introduction](README.md)
 * [Instalation](instalacion.md)
 * [List of commands](list_of_commands.md)
    * [add_collabolators](addcollabolators.md)
