@@ -13,5 +13,5 @@
    * [merge_pull_requests](mergepullrequests.md)
    * [open_issue](openissue.md)
    * [push_files](pushfiles.md)
-   * version
+   * [version](version.md)
 
