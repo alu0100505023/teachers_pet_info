@@ -12,3 +12,9 @@ Each student is given a team in the organization. The team name is the same as t
 
 
 To use the latest-and-greatest code from this repository, see the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Related projects
+
+* https://education.github.com/guide
+* https://github.com/hogbait/6170_repo_management
+* https://github.com/UCSB-CS-Using-GitHub-In-Courses/github-acad-scripts
