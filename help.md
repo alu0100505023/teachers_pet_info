@@ -4,3 +4,10 @@
 
 
 ####Description
+
+####Command line
+```bash
+teachers_pet help [command]
+```
+
+###Descriptions of parameters
