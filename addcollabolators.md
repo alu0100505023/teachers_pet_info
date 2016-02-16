@@ -3,10 +3,20 @@
 *./lib/teachers_pet/actions/add_collabolators.rb*
 
 ####Description
-Give collabolators to a repository
+Give collaborator access to each provided user.
 
 ####Command line
 ```bash
-teachers_pet add_collabolators [repository] [members]
+teachers_pet add_collabolators [repository] [members] [dryrun]
 ```
+####Descriptions of parameters expected
 
+[repository] : 'OWNER/REPO'
+
+[members] : 'PATH'.
+
+"The path to the file containing the list of usernames to add."
+
+[dry_run] : boolean
+
+"Defaut: false, optional parameter"
