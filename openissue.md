@@ -8,15 +8,21 @@ Opens a single issue in each repository in the organization.
 
 ####Command line
 ```bash
-teachers_pet merge_pull_requests [repository]
+teachers_pet open_issue [organization] [repository] [title] [body] [labels]
 ```
 
 ###Descriptions of parameters
-[repository] : 'OWNER/REPO'
+[organization] 
 
+[repository]
 
-option :organization, required: true
-1     option :repository, required: true
-1     option :title, desc: "The title of the issue to be created"
-1     option :body, banner: 'PATH', desc: "The path to the file containing the issue body (.txt or .md)"
-1     option :labels, banner: 'LABEL1,LABEL2'
+[title] : 'title' (Optional parameter)
+
+The title of the issue to be created
+
+[body] : 'PATH' (Optional parameter)
+
+The path to the file containing the issue body (.txt or .md)
+
+[labels] : 'label' (Optional parameter)
+label: LABEL1,LABEL2
