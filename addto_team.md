@@ -16,6 +16,6 @@ teachers_pet add_to_team [organization] [members]
 
 [members] : 'PATH'
 
-"The path to the file containing the list of members to add. The filename will be used as the name of the team, e.g. `path/to/instructors.csv` will use the 'instructors' team."
+The path to the file containing the list of members to add. The filename will be used as the name of the team, e.g. `path/to/instructors.csv` will use the 'instructors' team.
 
 
