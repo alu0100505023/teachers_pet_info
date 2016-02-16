@@ -8,7 +8,7 @@
    * [clone_repos](clonerepos.md)
    * [create_repos](createrepos.md)
    * [create_student_teams](createstudent_teams.md)
-   * forks
+   * [forks](forks.md)
    * help
    * merge_pull_requests
    * open_issue
