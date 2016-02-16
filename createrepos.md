@@ -7,5 +7,6 @@ Create a repository in a Organization.
 
 ####Command line
 ```bash
-teachers_pet create_repos [organization] [repository] 
+teachers_pet create_repos [organization] [repository] [public]
 ```
+
