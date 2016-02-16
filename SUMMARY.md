@@ -7,7 +7,7 @@
    * [add_to_team](addto_team.md)
    * [clone_repos](clonerepos.md)
    * [create_repos](createrepos.md)
-   * create_student_teams
+   * [create_student_teams](createstudent_teams.md)
    * forks
    * help
    * merge_pull_requests
