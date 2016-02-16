@@ -1,3 +1,3 @@
 # merge_pull_requests
 
-*./lib/teachers_pet/actions/add_collabolators.rb*
+*./lib/teachers_pet/actions/merge_pull_requests.rb*
