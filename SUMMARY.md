@@ -10,4 +10,5 @@
    * create_student_teams
    * forks
    * help
+   * merge_pull_requests
 
