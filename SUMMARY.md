@@ -6,4 +6,5 @@
    * [add_collabolators](addcollabolators.md)
    * add_to_team
    * clone_repos
+   * create_repos
 
