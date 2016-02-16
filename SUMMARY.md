@@ -5,7 +5,7 @@
 * [List of commands](list_of_commands.md)
    * [add_collabolators](addcollabolators.md)
    * [add_to_team](addto_team.md)
-   * clone_repos
+   * [clone_repos](clonerepos.md)
    * create_repos
    * create_student_teams
    * forks
