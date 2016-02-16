@@ -2,5 +2,5 @@
 
 * [Introduccion](README.md)
 * [Instalacion](instalacion.md)
-* List of commands
+* [List of commands](list_of_commands.md)
 
