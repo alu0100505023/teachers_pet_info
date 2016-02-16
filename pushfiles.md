@@ -1,3 +1,3 @@
 # push_files
 
-*./lib/teachers_pet/actions/add_collabolators.rb*
+*./lib/teachers_pet/actions/push_files.rb*
