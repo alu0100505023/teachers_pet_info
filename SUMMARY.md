@@ -6,7 +6,7 @@
    * [add_collabolators](addcollabolators.md)
    * [add_to_team](addto_team.md)
    * [clone_repos](clonerepos.md)
-   * create_repos
+   * [create_repos](createrepos.md)
    * create_student_teams
    * forks
    * help
