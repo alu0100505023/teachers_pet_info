@@ -11,4 +11,5 @@
    * forks
    * help
    * merge_pull_requests
+   * open_issue
 
