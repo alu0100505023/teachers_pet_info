@@ -10,7 +10,7 @@
    * [create_student_teams](createstudent_teams.md)
    * [forks](forks.md)
    * [help](help.md)
-   * merge_pull_requests
+   * [merge_pull_requests](mergepullrequests.md)
    * open_issue
    * push_files
    * version
