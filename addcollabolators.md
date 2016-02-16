@@ -17,6 +17,6 @@ teachers_pet add_collabolators [repository] [members] [dryrun]
 
 "The path to the file containing the list of usernames to add."
 
-[dry_run] : boolean
+[dry_run] : boolean (optional parameter).
 
-"Defaut: false, optional parameter"
+Defaut: false.
