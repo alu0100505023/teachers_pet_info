@@ -7,4 +7,5 @@
    * add_to_team
    * clone_repos
    * create_repos
+   * create_student_teams
 
