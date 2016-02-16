@@ -1,3 +1,6 @@
 # version
 
-*./lib/teachers_pet/actions/add_collabolators.rb*
+*.lib/teachers_pet/commands/version.rb*
+
+###Description###
+Print out the gem version number.
