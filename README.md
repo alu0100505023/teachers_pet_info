@@ -9,3 +9,6 @@ Each class is an 'organization' on GitHub. This allows the instructors (GitHub o
 * Instructors can easily browse/pull student code at any time during the assignment to assist in questions, check on progress
 
 Each student is given a team in the organization. The team name is the same as the student's GitHub username.
+
+
+To use the latest-and-greatest code from this repository, see the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
