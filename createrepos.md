@@ -7,7 +7,7 @@
 
 ####Command line
 ```bash
-teachers_pet create_repos [organization] [repository] [public]
+teachers_pet create_repos --organization=[organization] --repository=[repository] --public=[public]
 ```
 ###Descriptions of parameters
 [organization]
