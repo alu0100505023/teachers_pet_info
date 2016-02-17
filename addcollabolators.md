@@ -7,7 +7,7 @@ Give collaborator access to each provided user.
 
 ####Command line
 ```bash
-teachers_pet add_collabolators [repository] [members] [dryrun]
+teachers_pet add_collabolators --repository=[repository] --members=[members] --dryrun=[dryrun]
 ```
 ####Descriptions of parameters
 
