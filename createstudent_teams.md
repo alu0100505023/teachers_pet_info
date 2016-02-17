@@ -21,9 +21,9 @@ default : ./students
 [username] (Optional parameter)
 default : system name.
 
-[password] (Optional parameter)
+[password] 
 
-[token] : token (Optional parameter)
+[token] : token 
 
 Provide a token instead of a username+password to authenticate via OAuth. See https://github.com/education/teachers_pet#authentication.
 
