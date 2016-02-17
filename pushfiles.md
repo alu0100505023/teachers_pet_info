@@ -7,7 +7,7 @@ Run this command from a local Git repository to push the files up to the specifi
 
 ####Command line
 ```bash
-teachers_pet push_files [organization] [repository] [ssh]
+teachers_pet push_files --organization=[organization] --repostitory=[repository] --ssh=[ssh]
 ```
 
 ###Descriptions of parameters
