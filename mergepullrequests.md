@@ -9,7 +9,7 @@ Merges all open pull requests on a particular repository
 
 ####Command line
 ```bash
-teachers_pet merge_pull_requests [repository]
+teachers_pet merge_pull_requests --repository=[repository]
 ```
 
 ###Descriptions of parameters
