@@ -8,7 +8,7 @@ Adds each user in the list to the team specified my the filename. Creates the te
 
 ####Command line
 ```bash
-teachers_pet add_to_team [organization] [members]
+teachers_pet add_to_team --organization=[organization] --members=[members]
 ```
 ###Descriptions of parameters
 
