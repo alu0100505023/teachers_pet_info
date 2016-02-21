@@ -30,6 +30,6 @@ Once created, specify the token using the `--token` option, or if you add the `T
 
 ```bash
 # replace YOUR_TOKEN_HERE below
-echo "\n\nexport TEACHERS_PET_GITHUB_TOKEN=YOUR_TOKEN_HERE" >> ~/.bash_profile
+echo "export TEACHERS_PET_GITHUB_TOKEN=YOUR_TOKEN_HERE" >> ~/.bash_profile
 source ~/.bash_profile
 ```
