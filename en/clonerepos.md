@@ -7,9 +7,15 @@ Clone all student repositories for a particular assignment into the current dire
 
 ####Command line
 ```bash
-teachers_pet clone_repos --organization=[organization] --repository=[repository] --clone_method=[clone_method]
+teachers_pet clone_repos --organization --repository=--clone_method
 ```
 ###Descriptions of parameters
+
+| Parameteres |  
+| -- | -- |
+| --organization   | The name of your github organization |
+| --repository = Owner/Repo| Name of the assignment repository |
+|  --clone_method | (Optional) 'https' or 'ssh'. Default: 'https'.  |
 
 [organization]
 
