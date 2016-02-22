@@ -84,17 +84,30 @@ Es necesario crear un archivo, el titulo o nombre del archivo sera el equipo a m
 La ruta del archivo sera indicada con el parametro --members.
 
 Para nuestro ejemplo hemos creado un archivo llamado *TeamH* en el que hemos asignado escrito dentro de el al estudiante *studentbeta* 
+
 ```bash 
-$> teachers_pet add_to_team --organization=classroom-testing --username=$GITHUB_USER --password=$GITHUB_PASS --token=$TEACHERS_PET_GITHUB_TOKEN --members=./TeamH
+$> teachers_pet add_to_team --organization=classroom-testing --members=./TeamH
 ```
-Vemos como el estudiante ha sido asignado al equipo.
+Aunque no aparezca en el ejemplo, recuerda siempre añadir al comando los parametros de autentificacion.
 
 ![](../pics/addto.png)
+
+Vemos como el estudiante ha sido asignado al equipo.
 
 
 
 ##Creando repositorios para una tarea o asignacion
 `teachers_pet create_repos`
+
+```bash 
+$> teachers_pet create_repos --organization=classroom-testing --repository=classroom-testing/create --public=true
+```
+
+![](../pics/createrepo.png)
+
+Podemos ver que se ha creado la asignacion al estudiante del repositorio original.
+
+![](../pics/createsucc.png)
 
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
