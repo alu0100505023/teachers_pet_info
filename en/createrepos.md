@@ -18,4 +18,6 @@ teachers_pet create_repos --organization=[organization] --repository=[repository
 
 "Make the repositories public". Default : false.
 
+[--no-public]
+
 
