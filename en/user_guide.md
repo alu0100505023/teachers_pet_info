@@ -69,7 +69,7 @@ $> teachers_pet create_student_teams --organization=classroom-testing --username
 
 Se crearan los equipos de trabajo, y posteriormente se añadaran los usuarios a cada grupo al que han sido asignados.
 
-![](/pics/teamc.png)
+![](/../pics/teamc.png)
 
 Si vamos a nuestra organizacion en Github podremos ver que efectivamente se ha creado el equipo y se a asignado a los integrantes en el.
 
