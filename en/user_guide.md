@@ -61,10 +61,11 @@ Si queremos un grupo en primer lugar se debera escribir el nombre del grupo, y d
 
 TeamA studentBeta studentAlpha1
 
+Se crearan los equipos de trabajo, y posteriormente se añadaran los usuarios a cada grupo al que han sido asignados.
 
 ##Añadir a un equipo
 
-add_to_team
+teachers_pet add_to_team
 
 Es necesario crear un archivo, el nombre del archivo sera el equipo, y los usuarios estaran contenidos en el.
 
