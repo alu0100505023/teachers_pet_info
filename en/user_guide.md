@@ -3,44 +3,38 @@ Ademas de las opciones especificas de cada comando, la aplicacion necesitara de 
 
 Estos parametros son:
 
-
-```--username
-```
+`--username`
 
 El nombre de usuario de github, si no se indica por defecto se cargara el nombre del usuario del sistema.
 
-```--password
-```
+`--password`
 
 La contraseña del usuario de Github, es un parametro requerido.
 
-```--token
-```
+`--token`
 
 El token con los permisos especificos creados para la aplicacion explicado en la [guia de instalacion](/instalacion.md).
 
-```--api
-```
+`--api`
 
-```--web
-```
+`--web`
 
 ###Usando variables de entorno ENV
 Una buena manera de ahorrarnos tiempo y hacer menos incomodo la insercion de estos parametros cada vez que tenegamos que ejecutar una accion, es hacer uso de las variables de entorno. Guardar el token en una variable, el usuario de github y la contraseña, haran mas agil el manejo de comandos.
 
 Una manera sencilla de añadir una variable de entorno es abrir una terminal y ejecutar:
 ```bash
-vi /home/tupropiousuario/.bashrc
+$> vi /home/tupropiousuario/.bashrc
 ```
 Modificando /tupropiousuario/ por tu usuario de sistema, con este comando se abrira el archivo donde se cargan las variables de entorno en el sistema (en vez de vi puedes usar el editor que mas te guste). Alli podremos asignar las variables que nos interesen.
 
 Por ejemplo:
-TEACHERS_PET_TOKEN=4e409b9c61bf9652c32023d83af9d61af47f
+`TEACHERS_PET_TOKEN=4e409b9c61bf9652c32023d83af9d61af47f`
 
 Despues de guardar el archivo hace falta volver a cargarlo para que los cambios sean efectivos.
 
 ```bash
-source /home/tupropiousuario/.bashrc
+$> source /home/tupropiousuario/.bashrc
 ```
 Si quieres comprobar que la variable se ha guardado y cargado correctamente se puede mirar facilmente de esta forma.
 
@@ -61,11 +55,11 @@ Si queremos un grupo individual en la linea debe estar solamente el nombre de un
 
 Ejemplo:
 
-`studentBeta`
+>studentBeta
 
 Si queremos un grupo en primer lugar se debera escribir el nombre del grupo, y despues asignar los usuarios.
 
-`TeamC studentBeta studentAlpha1`
+>TeamC studentBeta studentAlpha1
 
 Despues ejecutaremos el comando, sustituyendo las variables de entorno del ejemplo por las tuyas, o por los datos directamente.
 
