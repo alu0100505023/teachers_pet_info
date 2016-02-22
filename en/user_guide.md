@@ -69,11 +69,11 @@ $> teachers_pet create_student_teams --organization=classroom-testing --username
 
 Se crearan los equipos de trabajo, y posteriormente se añadaran los usuarios a cada grupo al que han sido asignados.
 
-![](../pics/teamc.png)
+![](/../pics/teamc.png)
 
 Si vamos a nuestra organizacion en Github podremos ver que efectivamente se ha creado el equipo y se a asignado a los integrantes en el.
 
-![](../pics/teamCyes.png)
+![](/../pics/teamCyes.png)
 
 ##Añadir personas a un equipo
 
@@ -90,7 +90,7 @@ $> teachers_pet add_to_team --organization=classroom-testing --members=./TeamH
 ```
 Aunque no aparezca en el ejemplo, recuerda siempre añadir al comando los parametros de autentificacion.
 
-![](../pics/addto.png)
+![](/../pics/addto.png)
 
 Vemos como el estudiante ha sido asignado al equipo.
 
@@ -109,7 +109,7 @@ $> teachers_pet create_repos --organization=classroom-testing --repository=class
 
 Podemos ver que se ha creado la asignacion al estudiante del repositorio original.
 
-![](../pics/createsucc.png)
+![](/../pics/createsucc.png)
 
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
@@ -124,7 +124,7 @@ teachers_pet clone_repos --organization=classroom-testing --repository=classroom
 ```
 
 
-![](../pics/cloning.png)
+![](/../pics/cloning.png)
 
 ##Abrir un issue para todos los repositorios de la organizacion
 
