@@ -76,7 +76,9 @@ La ruta del archivo sera indicada con el parametro --members.
 
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
-##Crear un Issue
+##Abrir un issue para todos los repositorios de la organizacion
+
+`teachers_pet open_issue`
 
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
