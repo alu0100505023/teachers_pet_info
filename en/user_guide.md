@@ -118,6 +118,11 @@ Si queremos clonar un repositorio en una maquina local usaremos este comando en 
 
 `--repository` Cuando se asigna un repositorio a un usuario, automaticamente se toma como nombre el nombre de la organizacion mas el propio nombre del repositorio original. Por lo tanto si la organizacion de ejemplo se llama *classroom-testing* y el nombre del repositorio es *create*, el nombre del repositorio a asignar a este parametro seria *classroom-testing-create*
 
+```bash
+teachers_pet clone_repos --organization=classroom-testing --repository=classroom-testing-create
+
+```
+
 
 ![](../pics/cloning.png)
 
