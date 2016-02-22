@@ -1,3 +1,8 @@
+###Notacion de parametros necesaria para cada comando
+Ademas de las opciones especificas de cada comando, la aplicacion necesitara de parametros de autentificacion que seran cargados cada vez que se realice cualquier accion.
+
+Estos parametros son:
+
 ###Crear grupos de estudiantes
 
 teachers_pet create_student_teams
