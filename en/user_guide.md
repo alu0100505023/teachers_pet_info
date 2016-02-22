@@ -83,6 +83,14 @@ Es necesario crear un archivo, el nombre del archivo sera el equipo a manejar, y
 
 La ruta del archivo sera indicada con el parametro --members.
 
+Para nuestro ejemplo hemos creado un archivo llamado *TeamH* en el que hemos asignado escrito dentro de el al estudiante *studentbeta* 
+```bash 
+$> teachers_pet add_to_team --organization=classroom-testing --username=$GITHUB_USER --password=$GITHUB_PASS --token=$TEACHERS_PET_GITHUB_TOKEN --members=./TeamH
+```
+
+
+
+
 ##Creando repositorios para una tarea o asignacion
 `teachers_pet create_repos`
 
