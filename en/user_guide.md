@@ -47,7 +47,7 @@ Para poder invocar a una variable de entorno hace falta usar el simbolo $, por l
 
 ##Crear equipos de estudiantes
 
-teachers_pet create_student_teams
+`teachers_pet create_student_teams`
 
 Es necesario tener un archivo sin formato "students", donde los grupos esten asignados en cada linea. Por defecto se supondra el directorio raiz como la ruta asignada al archivo, pero esto podra ser modificado mediante el parametro --students donde se la podra asignar la nueva ruta al archivo y su formato. 
 
@@ -63,10 +63,17 @@ TeamA studentBeta studentAlpha1
 
 Se crearan los equipos de trabajo, y posteriormente se añadaran los usuarios a cada grupo al que han sido asignados.
 
-##Añadir a un equipo
+##Añadir personas a un equipo
 
-teachers_pet add_to_team
+`teachers_pet add_to_team`
 
-Es necesario crear un archivo, el nombre del archivo sera el equipo, y los usuarios estaran contenidos en el.
+Es necesario crear un archivo, el nombre del archivo sera el equipo a manejar, y los usuarios a añadir estaran contenidos en el.
+
+La ruta del archivo sera indicada con el parametro --members.
 
 ##Ver quien ha hecho un fork de un repositorio
+
+`teachers_pet fork`
+
+Con este comando podras saber que alumnos han hecho un fork de un repositorio en concreto, que sea pasado como parametro. La lista de alumnos sera creada y guardada en un archivo students.csv por defecto, o indicando la ruta y el archivo donde quieras con el parametro --output.
+
