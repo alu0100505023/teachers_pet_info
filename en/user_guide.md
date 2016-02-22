@@ -1,4 +1,4 @@
-###Notacion de parametros necesaria para cada comando
+##Notacion de parametros necesaria para cada comando
 Ademas de las opciones especificas de cada comando, la aplicacion necesitara de parametros de autentificacion Oauth de la API de Github, que seran cargados cada vez que se realice cualquier accion.
 
 Estos parametros son:
@@ -13,11 +13,15 @@ La contraseña del usuario de Github, es un parametro requerido.
 
 --token
 
-El token con los permisos especificos creados para la aplicacion explicado en la [guia de instalacion](/instalacion.md)
+El token con los permisos especificos creados para la aplicacion explicado en la [guia de instalacion](/instalacion.md).
 
 --api
 
 --web
+
+###Usando variables de entorno ENV
+Una buena manera de ahorrarnos tiempo y hacer menos incomodo la insercion de estos parametros cada vez que tenegamos que ejecutar una accion, es hacer uso de las variables de entorno. Guardar el token en una variable, el usuario de github y la contraseña, haran mas agil el manejo de comandos.
+
 
 ###Crear grupos de estudiantes
 
