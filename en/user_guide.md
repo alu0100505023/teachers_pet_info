@@ -55,13 +55,25 @@ Si queremos un grupo individual en la linea debe estar solamente el nombre de un
 
 Ejemplo:
 
-studentBeta
+`studentBeta`
 
 Si queremos un grupo en primer lugar se debera escribir el nombre del grupo, y despues asignar los usuarios.
 
-TeamA studentBeta studentAlpha1
+`TeamC studentBeta studentAlpha1`
+
+Despues ejecutaremos el comando, sustituyendo las variables de entorno del ejemplo por las tuyas, o por los datos directamente.
+
+```bash 
+$> teachers_pet create_student_teams --organization=classroom-testing --username=$GITHUB_USER --password=$GITHUB_PASS --token=$TEACHERS_PET_TOKEN
+```
 
 Se crearan los equipos de trabajo, y posteriormente se añadaran los usuarios a cada grupo al que han sido asignados.
+
+![](../pics/teamc.png)
+
+Si vamos a nuestra organizacion en Github podremos ver que efectivamente se ha creado el equipo y se a asignado a los integrantes en el.
+
+![](../pics/teamCyes.png)
 
 ##Añadir personas a un equipo
 
