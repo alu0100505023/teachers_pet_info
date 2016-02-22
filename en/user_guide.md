@@ -71,6 +71,10 @@ Es necesario crear un archivo, el nombre del archivo sera el equipo a manejar, y
 
 La ruta del archivo sera indicada con el parametro --members.
 
+##Creando repositorios para una tarea o asignacion
+`teachers_pet create_repos`
+
+
 ##Ver quien ha hecho un fork de un repositorio
 
 `teachers_pet fork`
