@@ -18,24 +18,15 @@ teachers_pet create_student_teams --organization=[organization] --students=[stud
 [students] : 'PATH' (Optional Parameter)
 default : ./students
 
-[username] (Optional parameter)
-default : system name.
 
-[password] 
 
-[token] : token 
-
-Provide a token instead of a username+password to authenticate via OAuth. See https://github.com/education/teachers_pet#authentication.
-
-[api] : Origin (Optional parameter)
-The API endpoint of your GitHub Enterprise instance, if you have one.
-
-Default: https://api.github.com/ 
-
-[web] : Origin (Optional parameter)
-The URL of your GitHub Enterprise instance, if you have one.
-
-Default: https://github.com/
+####Oauth parameters
+| Parameters |  
+| -- | -- |
+| --username | (Optional) Default: system username. |
+| --pasword = password.| Required the github password of the account. |
+| --api = origin| (Optional) The API endpoint of your GitHub Enterprise instance, if you have one. Default: https://api.github.com/|
+| --web = origin| (Optional) The URL of your GitHub Enterprise instance, if you have one. Default: https://github.com/ |
 
 
 
