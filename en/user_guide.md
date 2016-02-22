@@ -22,8 +22,30 @@ El token con los permisos especificos creados para la aplicacion explicado en la
 ###Usando variables de entorno ENV
 Una buena manera de ahorrarnos tiempo y hacer menos incomodo la insercion de estos parametros cada vez que tenegamos que ejecutar una accion, es hacer uso de las variables de entorno. Guardar el token en una variable, el usuario de github y la contraseña, haran mas agil el manejo de comandos.
 
+Una manera sencilla de añadir una variable de entorno es abrir una terminal y ejecutar:
+```bash
+vi /home/tupropiousuario/.bashrc
+```
+Modificando /tupropiousuario/ por tu usuario de sistema, con este comando se abrira el archivo donde se cargan las variables de entorno en el sistema (en vez de vi puedes usar el editor que mas te guste). Alli podremos asignar las variables que nos interesen.
 
-###Crear grupos de estudiantes
+Por ejemplo:
+TEACHERS_PET_TOKEN=4e409b9c61bf9652c32023d83af9d61af47f
+
+Despues de guardar el archivo hace falta volver a cargarlo para que los cambios sean efectivos.
+
+```bash
+source /home/tupropiousuario/.bashrc
+```
+Si quieres comprobar que la variable se ha guardado y cargado correctamente se puede mirar facilmente de esta forma.
+
+```bash
+echo $TEACHERS_PET_TOKEN
+```
+
+Para poder invocar a una variable de entorno hace falta usar el simbolo $, por lo que este caso en el parametro habria seria llamado tal que ``--token=$TEACHERS_PET_TOKEN ``
+
+
+##Crear grupos de estudiantes
 
 teachers_pet create_student_teams
 
