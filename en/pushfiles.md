@@ -20,4 +20,13 @@ teachers_pet push_files --organization=[organization] --repostitory=[repository]
 
 Default : TeachersPet::Configuration.sshEndpoint
 
+####Oauth parameters
+| Parameters |  
+| -- | -- |
+| --username | (Optional) Default: system username. |
+| --pasword = password.| Required the github password of the account. |
+| --api = origin| (Optional) The API endpoint of your GitHub Enterprise instance, if you have one. Default: https://api.github.com/|
+| --web = origin| (Optional) The URL of your GitHub Enterprise instance, if you have one. Default: https://github.com/ |
+
+
  
