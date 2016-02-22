@@ -113,6 +113,14 @@ Podemos ver que se ha creado la asignacion al estudiante del repositorio origina
 
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
+
+Si queremos clonar un repositorio en una maquina local usaremos este comando en el que le asignaremos el repositorio de la tarea de los estudiantes que nos interese.
+
+`--repository` Cuando se asigna un repositorio a un usuario, automaticamente se toma como nombre el nombre de la organizacion mas el propio nombre del repositorio original. Por lo tanto si la organizacion de ejemplo se llama *classroom-testing* y el nombre del repositorio es *create*, el nombre del repositorio a asignar a este parametro seria *classroom-testing-create*
+
+
+![](../pics/cloning.png)
+
 ##Abrir un issue para todos los repositorios de la organizacion
 
 `teachers_pet open_issue`
