@@ -12,6 +12,12 @@ teachers_pet add_to_team --organization=[organization] --members=[members]
 ```
 ###Descriptions of parameters
 
+| Parameteres |  
+| -- | -- |
+| --organization   | The name of your github organization |
+| --members = 'PATH'.| The path to the file containing the list of usernames to add. |
+
+
 [organization]
 
 [members] : 'PATH'
