@@ -3,21 +3,27 @@ Ademas de las opciones especificas de cada comando, la aplicacion necesitara de 
 
 Estos parametros son:
 
---username
+
+```--username
+```
 
 El nombre de usuario de github, si no se indica por defecto se cargara el nombre del usuario del sistema.
 
---password
+```--password
+```
 
 La contraseña del usuario de Github, es un parametro requerido.
 
---token
+```--token
+```
 
 El token con los permisos especificos creados para la aplicacion explicado en la [guia de instalacion](/instalacion.md).
 
---api
+```--api
+```
 
---web
+```--web
+```
 
 ###Usando variables de entorno ENV
 Una buena manera de ahorrarnos tiempo y hacer menos incomodo la insercion de estos parametros cada vez que tenegamos que ejecutar una accion, es hacer uso de las variables de entorno. Guardar el token en una variable, el usuario de github y la contraseña, haran mas agil el manejo de comandos.
@@ -49,7 +55,7 @@ Para poder invocar a una variable de entorno hace falta usar el simbolo $, por l
 
 `teachers_pet create_student_teams`
 
-Es necesario tener un archivo sin formato "students", donde los grupos esten asignados en cada linea. Por defecto se supondra el directorio raiz como la ruta asignada al archivo, pero esto podra ser modificado mediante el parametro --students donde se la podra asignar la nueva ruta al archivo y su formato. 
+Es necesario tener un archivo sin formato "students", donde los grupos esten asignados en cada linea. Por defecto se supondra el directorio raiz como la ruta asignada al archivo, pero esto podra ser modificado mediante el parametro ```--students``` donde se la podra asignar la nueva ruta al archivo y su formato. 
 
 Si queremos un grupo individual en la linea debe estar solamente el nombre de un alumno.
 
@@ -81,7 +87,7 @@ Si vamos a nuestra organizacion en Github podremos ver que efectivamente se ha c
 
 Es necesario crear un archivo, el titulo o nombre del archivo sera el equipo a manejar, y los usuarios a añadir estaran contenidos en el.
 
-La ruta del archivo sera indicada con el parametro --members.
+La ruta del archivo sera indicada con el parametro ```--members```.
 
 Para nuestro ejemplo hemos creado un archivo llamado *TeamH* en el que hemos asignado escrito dentro de el al estudiante *studentbeta* 
 
@@ -98,6 +104,8 @@ Vemos como el estudiante ha sido asignado al equipo.
 
 ##Creando repositorios para una tarea o asignacion
 `teachers_pet create_repos`
+
+Con este comando podremos asignar un asignacion de un repositorio a uno o varios estudiantes. Para ello debemos tener un fichero por defecto *./students* o añadir la ruta con el parametro ```--students```.
 
 ```bash 
 $> teachers_pet create_repos --organization=classroom-testing --repository=classroom-testing/create --public=true
