@@ -45,7 +45,7 @@ echo $TEACHERS_PET_TOKEN
 Para poder invocar a una variable de entorno hace falta usar el simbolo $, por lo que este caso en el parametro habria seria llamado tal que ``--token=$TEACHERS_PET_TOKEN ``
 
 
-##Crear grupos de estudiantes
+##Crear equipos de estudiantes
 
 teachers_pet create_student_teams
 
@@ -60,3 +60,10 @@ studentBeta
 Si queremos un grupo en primer lugar se debera escribir el nombre del grupo, y despues asignar los usuarios.
 
 TeamA studentBeta studentAlpha1
+
+
+##Añadir a un equipo
+
+add_to_team
+
+Es necesario crear un archivo, el nombre del archivo sera el equipo, y los usuarios estaran contenidos en el.
