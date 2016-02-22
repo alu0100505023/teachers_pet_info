@@ -20,4 +20,5 @@ teachers_pet create_repos --organization=[organization] --repository=[repository
 
 [--no-public]
 
+[--students=PATH] 
 
