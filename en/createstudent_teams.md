@@ -9,7 +9,7 @@ Create teams for each student (or student group), and a team for all the instruc
 
 ####Command line
 ```bash
-teachers_pet create_student_teams --organization=[organization] --students=[students] --username=[username] --password=[password] --token=[token] --api=[api] --web=[web]
+teachers_pet create_student_teams --organization --students 
 ```
 
 ###Descriptions of parameters
@@ -17,12 +17,7 @@ teachers_pet create_student_teams --organization=[organization] --students=[stud
 | Parameteres |  
 | -- | -- |
 | --organization   | The name of your github organization |
-| --students = 'PATH'.| The path to the file containing the list of usernames to add. |
-
-[organization]
-
-[students] : 'PATH' (Optional Parameter)
-default : ./students
+| --students = 'PATH'.| (Optional) The path to the file containing the list of user to add. Default: ./students |
 
 
 
