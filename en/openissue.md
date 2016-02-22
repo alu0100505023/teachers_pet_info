@@ -27,3 +27,11 @@ The path to the file containing the issue body (.txt or .md)
 [labels] : 'label' (Optional parameter)
 
 label: LABEL1,LABEL2
+
+####Oauth parameters
+| Parameters |  
+| -- | -- |
+| --username | (Optional) Default: system username. |
+| --pasword = password.| Required the github password of the account. |
+| --api = origin| (Optional) The API endpoint of your GitHub Enterprise instance, if you have one. Default: https://api.github.com/|
+| --web = origin| (Optional) The URL of your GitHub Enterprise instance, if you have one. Default: https://github.com/ |
