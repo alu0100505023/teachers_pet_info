@@ -74,6 +74,8 @@ La ruta del archivo sera indicada con el parametro --members.
 ##Creando repositorios para una tarea o asignacion
 `teachers_pet create_repos`
 
+##Clonar un repositorio de una tarea
+`teachers_pet clone_repos`
 
 ##Ver quien ha hecho un fork de un repositorio
 
