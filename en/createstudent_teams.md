@@ -13,6 +13,12 @@ teachers_pet create_student_teams --organization=[organization] --students=[stud
 ```
 
 ###Descriptions of parameters
+
+| Parameteres |  
+| -- | -- |
+| --organization   | The name of your github organization |
+| --students = 'PATH'.| The path to the file containing the list of usernames to add. |
+
 [organization]
 
 [students] : 'PATH' (Optional Parameter)
