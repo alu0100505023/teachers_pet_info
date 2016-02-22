@@ -2,6 +2,11 @@
 Ademas de las opciones especificas de cada comando, la aplicacion necesitara de parametros de autentificacion que seran cargados cada vez que se realice cualquier accion.
 
 Estos parametros son:
+--username
+--password
+--token
+--api
+--web
 
 ###Crear grupos de estudiantes
 
