@@ -11,6 +11,13 @@ teachers_pet add_collabolators --repository=[repository] --members=[members] --d
 ```
 ####Descriptions of parameters
 
+| [repository] : 'OWNER/REPOSITORY' |  |
+| -- | -- |
+| [members] : 'PATH'.| The path to the file containing the list of usernames to add. |
+| [dry_run]| Defaut: false. |
+
+
+
 [repository] : 'OWNER/REPO'
 
 [members] : 'PATH'.
