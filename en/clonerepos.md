@@ -17,13 +17,6 @@ teachers_pet clone_repos --organization --repository --clone_method
 | --repository = Owner/Repo| Name of the assignment repository |
 |  --clone_method | (Optional) 'https' or 'ssh'. Default: 'https'.  |
 
-[organization]
-
-[repository]
-
-[clone_method] : 'Option' (Optional parameter).
-
-Option: 'https' or 'ssh'. Default: 'https'.
 
 ####Oauth parameters
 | Parameters |  
