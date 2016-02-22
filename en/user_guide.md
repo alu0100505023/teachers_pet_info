@@ -13,7 +13,7 @@ La contraseña del usuario de Github, es un parametro requerido.
 
 --token
 
-El token con los permisos especificos creados para la aplicacion explicado en la ![guia de instalacion](/instalacion.md)
+El token con los permisos especificos creados para la aplicacion explicado en la [guia de instalacion](/instalacion.md)
 
 --api
 
