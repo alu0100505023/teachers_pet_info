@@ -73,7 +73,7 @@ Se crearan los equipos de trabajo, y posteriormente se añadaran los usuarios a 
 
 Si vamos a nuestra organizacion en Github podremos ver que efectivamente se ha creado el equipo y se a asignado a los integrantes en el.
 
-![](/../pics/teamCyes.png)
+![](./../pics/teamCyes.png)
 
 ##Añadir personas a un equipo
 
