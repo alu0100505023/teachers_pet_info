@@ -11,7 +11,7 @@ teachers_pet add_collabolators --repository --members --dryrun
 ```
 ####Descriptions of parameters
 
-| Parameter |  
+| Parameteres |  
 | -- | -- |
 | --repository = Owner/Repository | -- |
 | --members = 'PATH'.| The path to the file containing the list of usernames to add. |
