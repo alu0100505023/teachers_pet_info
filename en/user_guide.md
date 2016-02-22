@@ -79,7 +79,7 @@ Si vamos a nuestra organizacion en Github podremos ver que efectivamente se ha c
 
 `teachers_pet add_to_team`
 
-Es necesario crear un archivo, el nombre del archivo sera el equipo a manejar, y los usuarios a añadir estaran contenidos en el.
+Es necesario crear un archivo, el titulo o nombre del archivo sera el equipo a manejar, y los usuarios a añadir estaran contenidos en el.
 
 La ruta del archivo sera indicada con el parametro --members.
 
@@ -87,7 +87,9 @@ Para nuestro ejemplo hemos creado un archivo llamado *TeamH* en el que hemos asi
 ```bash 
 $> teachers_pet add_to_team --organization=classroom-testing --username=$GITHUB_USER --password=$GITHUB_PASS --token=$TEACHERS_PET_GITHUB_TOKEN --members=./TeamH
 ```
+Vemos como el estudiante ha sido asignado al equipo.
 
+![](../pics/addto.png)
 
 
 
