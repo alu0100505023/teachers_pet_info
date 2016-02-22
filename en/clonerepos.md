@@ -7,7 +7,7 @@ Clone all student repositories for a particular assignment into the current dire
 
 ####Command line
 ```bash
-teachers_pet clone_repos --organization --repository=--clone_method
+teachers_pet clone_repos --organization --repository --clone_method
 ```
 ###Descriptions of parameters
 
