@@ -133,10 +133,10 @@ Si queremos clonar un repositorio en una maquina local usaremos este comando en 
 `--repository` Cuando se asigna un repositorio a un usuario, automaticamente se toma como nombre el nombre de la organizacion mas el propio nombre del repositorio original. Por lo tanto si la organizacion de ejemplo se llama *classroom-testing* y el nombre del repositorio es *create*, el nombre del repositorio a asignar a este parametro seria *classroom-testing-create*
 
 ```bash
-teachers_pet clone_repos --organization=classroom-testing --repository=classroom-testing-create
+$> teachers_pet clone_repos --organization=classroom-testing --repository=classroom-testing-create
 
 ```
-
+Este comando haria que se clonasesn los repositorios asignados a la lista de alumnos en la direccion actual donde se encuentre la consola de comandos. 
 
 ![](/../pics/cloning.png)
 
@@ -146,6 +146,8 @@ teachers_pet clone_repos --organization=classroom-testing --repository=classroom
 
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
+
+Podemos añadir un 
 
 ##Hacer un Merge de todos los Pull Requests disponibles en un repositorio
 `teachers_pet merge_pull_requests`
