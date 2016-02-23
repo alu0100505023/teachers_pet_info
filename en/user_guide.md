@@ -168,6 +168,11 @@ Este comando haria que se clonasesn los repositorios asignados a la lista de alu
 
 `teachers_pet open_issue`
 
+Para la correccion y manejo de tareas github provee de la herramienta issues para anotar fallos y posibles correcciones pendientes al alumno.
+
+[Documentacion disponible](https://guides.github.com/features/issues/) para la ayuda en el manejo de issues.
+
+
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
 
