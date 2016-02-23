@@ -185,12 +185,16 @@ Para abrir un issue mediante la herramienta teachers_pet es necesario tener en c
 ```bash
 teachers_pet open_issue --organization=classroom-testing --repository=easytask --title='The menu need fixing' --body='./body.txt' 
 ```
-En nuestro ejemplo el profesor ha decidido abrir un issue para la tarea del alumno *studentalpha1*. El texto esta indicado en un archivo llamado *body.txt* indicado en el parametro.
+En nuestro ejemplo el profesor ha decidido abrir un issue para la tarea *easytask *del alumno *studentalpha1*. El texto esta indicado en un archivo llamado *body.txt* indicado en el parametro.
 
 ![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/issued_zpsi1lrzv90.png)
 
+El issue se ha creado correctamente, y solo queda comprobar que en el repositorio original nuestro alumno tiene listo su Issue.
+
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/issuecheck_zpse0ydwwhp.png)
+
 ##Añadir colaboladores a un repositorio
-`teachers_pet add_collabolators`
+`teachers_pet add_collaborators`
 
 Podemos añadir un colabolador a cualquier persona que ha realizado un fork de tu repositorio.
 
