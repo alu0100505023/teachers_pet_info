@@ -147,7 +147,7 @@ Este comando haria que se clonasesn los repositorios asignados a la lista de alu
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
 
-Podemos añadir un 
+Podemos añadir un colabolador, como otro posible profesor repositorios asignado a tareas de estudiantes.
 
 ##Hacer un Merge de todos los Pull Requests disponibles en un repositorio
 `teachers_pet merge_pull_requests`
