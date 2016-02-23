@@ -222,5 +222,11 @@ Como ejemplo el profesor añadio al colaborador gracias la lista creada que es e
 
 Permite mezclar todos los Pull Requests al mismo tiempo para facilitar su manejo.
 
+Para ello el unico parametro que deberemos usar sera `--repository` donde se indicara el usuario y el nombre del repositorio
+
+```bash
+$> teachers_pet fork --repository=professor/easytak'
+```
+
 
 
