@@ -16,7 +16,7 @@ teachers_pet push_files --organization--repostitory --ssh
 | -- | -- |
 | --organization   | The name of your github organization |
 | --repository = Owner/Repo| Name of the assignment repository |
-| --students | |
+| --students= 'PATH' |(Optional) The path to the file containing the list of user to add. Default: ./students  |
 | --ssh: 'HOST' | (Optional) Default: github.com|
 
 
