@@ -44,6 +44,8 @@ echo $TEACHERS_PET_TOKEN
 
 Para poder invocar a una variable de entorno hace falta usar el simbolo $, por lo que este caso en el parametro habria seria llamado tal que ``--token=$TEACHERS_PET_TOKEN ``
 
+##Crea tu organizacion en Github
+
 
 ##Crear equipos de estudiantes
 
@@ -100,6 +102,7 @@ Vemos como el estudiante ha sido asignado al equipo.
 `teachers_pet create_repos`
 
 Con este comando podremos asignar un asignacion de un repositorio a uno o varios estudiantes. Para ello debemos tener un fichero por defecto *./students* o añadir la ruta con el parametro ```--students```.
+Antes de poder trabajar con issues, clonar, y las demas opciones, es necesario seguir este paso primero.
 
 ```bash 
 $> teachers_pet create_repos --organization=classroom-testing --repository=classroom-testing/create --public=true
