@@ -12,6 +12,15 @@ teachers_pet open_issue --organization=[organization] --repository=[repository] 
 ```
 
 ###Descriptions of parameters
+
+| Parameteres |  
+| -- | -- |
+| --organization   | The name of your github organization |
+| --repository = Owner/Repo| Name of the assignment repository |
+| --title |     |
+| --body |
+|--label | |
+| --student |
 [organization] 
 
 [repository]
