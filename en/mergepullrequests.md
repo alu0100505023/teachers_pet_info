@@ -13,7 +13,10 @@ teachers_pet merge_pull_requests --repository=[repository]
 ```
 
 ###Descriptions of parameters
-[repository] : 'OWNER/REPO'
+
+| Parameteres |  
+| -- | -- |
+| --repository = Owner/Repo| Name of the assignment repository |
 
 ####Oauth parameters
 | Parameters |  
