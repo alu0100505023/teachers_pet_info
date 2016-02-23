@@ -182,7 +182,12 @@ Para abrir un issue mediante la herramienta teachers_pet es necesario tener en c
 
 `--students` Opcionalmente permitira indicar el camino del archivo de los estudiantes si no esta en './students'.
 
+```bash
+teachers_pet open_issue --organization=classroom-testing --repository=easytask --title='The menu need fixing' --body='./body.txt' 
+```
+En nuestro ejemplo el profesor ha decidido abrir un issue para la tarea del alumno *studentalpha1*. El texto esta indicado en un archivo llamado *body.txt* indicado en el parametro.
 
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/issued_zpsi1lrzv90.png)
 
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
