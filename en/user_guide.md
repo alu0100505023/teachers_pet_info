@@ -142,7 +142,7 @@ teachers_pet push_files --organization=classroom-testing --repository=easytask
 ```
 En este caso ejecutando el comando, enviariamos el contenido del repositorio a las asignaciones de la tarea *easytask*
 
-La lista de alumnos estara fijada en la ruta './students' o podras cambiarla mediante el paramentro **==students**.
+La lista de alumnos estara fijada en la ruta './students' o podras cambiarla mediante el paramentro **--students**.
 
 ![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/clone_zps6mj10ifh.png)
 
