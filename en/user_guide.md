@@ -103,7 +103,7 @@ $> teachers_pet add_to_team --organization=classroom-testing --members=./TeamH
 ```
 Aunque no aparezca en el ejemplo, recuerda siempre añadir al comando los parametros de autentificacion.
 
-![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/teamCyes_zpsqnibbodi.png)
+![](http://s125.photobucket.com/user/NooK1e_RG/media/gitbook/addto_zpsg0smy3ee.png.html)
 
 Vemos como el estudiante ha sido asignado al equipo.
 
