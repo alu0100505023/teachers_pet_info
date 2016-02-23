@@ -7,28 +7,19 @@
 
 ####Command line
 ```bash
-teachers_pet create_repos --organization=[organization] --repository=[repository] --public=[public]
+teachers_pet create_repos --organization --repository --students --public
 ```
 ###Descriptions of parameters
 
 | Parameteres |  
 | -- | -- |
 | --organization   | The name of your github organization |
-| --repository='Owner/repo' | |
+| --repository='Owner/Repo' |Name of the assignment repository |
 | --students = 'PATH'.| (Optional) The path to the file containing the list of user to add. Default: ./students |
+|--public = boolean |(Optional) Default: False| 
+|--no-public| (Optional) Default: True   | 
 
 
-[organization]
-
-[repository]
-
-[public] : boolean (Optional parameter).
-
-"Make the repositories public". Default : false.
-
-[--no-public]
-
-[--students=PATH] 
 
 ####Oauth parameters
 | Parameters |  
