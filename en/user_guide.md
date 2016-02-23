@@ -183,6 +183,7 @@ Para abrir un issue mediante la herramienta teachers_pet es necesario tener en c
 `--students` Opcionalmente permitira indicar el camino del archivo de los estudiantes si no esta en './students'.
 
 
+
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
 
