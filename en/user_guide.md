@@ -135,17 +135,18 @@ Podemos ver que se ha creado la asignacion de los estudiantes a los repositorios
 ##Rellenado el repositorio y ejecutando Push Files
 `teachers_pet push_files`
 
-Tras haber creado el repositorio vacio, podremos rellenarlo con un plantilla base para nuestros alumnos empiecen a trabajar en el repository. Por ejemplo que el repositorio tenga *gitignore, rakefile, makefile,* etc. Tras haberlo creado desde nuestro repositorio local usaremos el comando **push_files** para añadir ese codigo a todos los alumnos a los que se les ha asginado la tarea del repositorio. Este comando funciona creando un Git Remote por cada repositorio del estudiante y haciendo despues un Git Push a cada uno de ellos.
+Tras haber creado el repositorio vacio y haber sido asignado con **create_repos**, podremos rellenarlo con un plantilla base para nuestros alumnos empiecen a trabajar en el repository. Por ejemplo que el repositorio tenga *gitignore, rakefile, makefile,* etc. Tras haberlo creado desde nuestro repositorio local usaremos el comando **push_files** para añadir ese codigo a todos los alumnos a los que se les ha asginado la tarea del repositorio. Este comando funciona creando un Git Remote por cada repositorio del estudiante y haciendo despues un Git Push a cada uno de ellos.
 
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
 
 Si queremos clonar un repositorio en una maquina local usaremos este comando en el que le asignaremos el repositorio de la tarea de los estudiantes que nos interese.
 
-`--repository` Cuando se asigna un repositorio a un usuario, automaticamente se toma como nombre el nombre de la organizacion mas el propio nombre del repositorio original. Por lo tanto si la organizacion de ejemplo se llama *classroom-testing* y el nombre del repositorio es *create*, el nombre del repositorio a asignar a este parametro seria *classroom-testing-create*
+`--repository` Cuando se asigna un repositorio a un usuario, automaticamente se toma como nombre el nombre de del usuario mas el nombre del repositorio original. El nombre que demos utilizar es el de la tarea del repositorio.
 
+En nuestro caso clonaremos los repositorios de la tarea que creamos anteriormente, *easytask*.
 ```bash
-$> teachers_pet clone_repos --organization=classroom-testing --repository=classroom-testing-create
+$> teachers_pet clone_repos --organization=classroom-testing --repository=easytask
 
 ```
 Este comando haria que se clonasesn los repositorios asignados a la lista de alumnos en la direccion actual donde se encuentre la consola de comandos. 
