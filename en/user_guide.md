@@ -82,11 +82,11 @@ $> teachers_pet create_student_teams --organization=classroom-testing --username
 
 Se crearan los equipos de trabajo, y posteriormente se añadaran los usuarios a cada grupo al que han sido asignados.
 
-![](/../pics/teamc.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/teamc_zpsuy5mfxuh.png)
 
 Si vamos a nuestra organizacion en Github podremos ver que efectivamente se ha creado el equipo y se a asignado a los integrantes en el.
 
-![](/../pics/teamCyes.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/teamCyes_zpsqnibbodi.png)
 
 ##Añadir personas a un equipo
 
@@ -103,7 +103,7 @@ $> teachers_pet add_to_team --organization=classroom-testing --members=./TeamH
 ```
 Aunque no aparezca en el ejemplo, recuerda siempre añadir al comando los parametros de autentificacion.
 
-![](/../pics/addto.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/teamCyes_zpsqnibbodi.png)
 
 Vemos como el estudiante ha sido asignado al equipo.
 
@@ -119,11 +119,11 @@ Antes de poder trabajar con issues, clonar, y las demas opciones, es necesario s
 $> teachers_pet create_repos --organization=classroom-testing --repository=classroom-testing/create --public=true
 ```
 
-![](../pics/createrepo.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/createrepo_zpswadh6kyc.png)
 
 Podemos ver que se ha creado la asignacion al estudiante del repositorio original.
 
-![](/../pics/createsucc.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/createsucc_zpsgswc5ohu.png)
 
 ##Rellenado el repositorio y ejecutando Push Files
 `teachers_pet push_files`
@@ -143,7 +143,7 @@ $> teachers_pet clone_repos --organization=classroom-testing --repository=classr
 ```
 Este comando haria que se clonasesn los repositorios asignados a la lista de alumnos en la direccion actual donde se encuentre la consola de comandos. 
 
-![](/../pics/cloning.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/cloning_zpsqenidgzr.png)
 
 ##Abrir un issue para todos los repositorios de la organizacion
 
