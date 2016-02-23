@@ -8,7 +8,7 @@ Opens a single issue in each repository in the organization.
 
 ####Command line
 ```bash
-teachers_pet open_issue --organization=[organization] --repository=[repository] --title=[title] --body=[body] --labels=[labels]
+teachers_pet open_issue --organization=[organization] --repository=[repository] --title=[title] --body=[body] --labels=[labels] --students
 ```
 
 ###Descriptions of parameters
@@ -17,25 +17,12 @@ teachers_pet open_issue --organization=[organization] --repository=[repository] 
 | -- | -- |
 | --organization   | The name of your github organization |
 | --repository = Owner/Repo| Name of the assignment repository |
-| --title |     |
-| --body |
-|--label | |
-| --student |
+| --title = TITLE | The path to the file containing the issue body (.txt or .md)|
+| --body | The path to the file containing the issue body (.txt or .md) |
+|--labels = labels| LABEL1, LABEL2 |
+| --student |(Optional) The path to the file containing the list of user to add. Default: ./students |
 [organization] 
 
-[repository]
-
-[title] : 'title' (Optional parameter)
-
-The title of the issue to be created
-
-[body] : 'PATH' (Optional parameter)
-
-The path to the file containing the issue body (.txt or .md)
-
-[labels] : 'label' (Optional parameter)
-
-label: LABEL1,LABEL2
 
 ####Oauth parameters
 | Parameters |  
