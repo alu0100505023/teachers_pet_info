@@ -212,6 +212,11 @@ En el ejemplo el profesor indica en `--repository` su nombre en Github y el repo
 
 Podemos añadir un colaborador a cualquier persona que ha realizado un fork de tu repositorio. Una forma facil de saber quien lo ha hecho es usar la lista del comando `teachers_pet fork` anteriormente mencionado.
 
+```bash
+$> teachers_pet fork --repository=professor/easytak --members='./easytask.csv'
+```
+Como ejemplo el profesor añadio al colaborador gracias la lista creada que es entregada con el parametro `-members`
+
 ##Hacer un Merge de todos los Pull Requests disponibles en un repositorio
 `teachers_pet merge_pull_requests`
 
