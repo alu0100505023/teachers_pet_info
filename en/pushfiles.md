@@ -12,13 +12,13 @@ teachers_pet push_files --organization--repostitory --ssh
 
 ###Descriptions of parameters
 
-[organization]
+| Parameteres |  
+| -- | -- |
+| --organization   | The name of your github organization |
+| --repository = Owner/Repo| Name of the assignment repository |
+| --students | |
+| --ssh: 'HOST' | (Optional) Default: github.com|
 
-[repository]
-
-[ssh] : 'HOST' (Optional parameter)
-
-Default : TeachersPet::Configuration.sshEndpoint
 
 ####Oauth parameters
 | Parameters |  
