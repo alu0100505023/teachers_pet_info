@@ -193,17 +193,27 @@ El issue se ha creado correctamente, y solo queda comprobar que en el repositori
 
 ![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/issuecheck_zpse0ydwwhp.png)
 
-##Añadir colaboladores a un repositorio
-`teachers_pet add_collaborators`
-
-Podemos añadir un colabolador a cualquier persona que ha realizado un fork de tu repositorio.
-
-##Hacer un Merge de todos los Pull Requests disponibles en un repositorio
-`teachers_pet merge_pull_requests`
-
 ##Ver quien ha hecho un fork de un repositorio
 
 `teachers_pet fork`
 
 Con este comando podras saber que alumnos han hecho un fork de un repositorio en concreto, que sea pasado como parametro. La lista de alumnos sera creada y guardada en un archivo students.csv por defecto, o indicando la ruta y el archivo donde quieras con el parametro --output.
+
+
+```bash
+$> teachers_pet fork --repository=professor/easytak --output=easytask.csv
+```
+
+En el ejemplo el profesor indica en `--repository` su nombre en Github y el repositorio que quiere mirar, y como salida le parecio bien guardar la lista en un archivo llamado *easytask.csv.*.
+
+
+##Añadir colaboladores a un repositorio
+`teachers_pet add_collaborators`
+
+Podemos añadir un colaborador a cualquier persona que ha realizado un fork de tu repositorio. Una forma facil de saber quien lo ha hecho es usar la lista del comando `teachers_pet fork` anteriormente mencionado.
+
+##Hacer un Merge de todos los Pull Requests disponibles en un repositorio
+`teachers_pet merge_pull_requests`
+
+
 
