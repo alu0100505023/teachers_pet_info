@@ -115,15 +115,22 @@ Vemos como el estudiante ha sido asignado al equipo.
 Con este comando podremos asignar un asignacion de un repositorio a uno o varios estudiantes. Para ello debemos tener un fichero por defecto *./students* o añadir la ruta con el parametro ```--students```.
 Antes de poder trabajar con issues, clonar, y las demas opciones, es necesario seguir este paso primero.
 
+Vamos a crear un repositorio para los alumnos* studentalpha1* y *studentbeta*, el repositorio se llamara *easytask* y debera ser asignado a ambos alumnos que previamente han sido añadidos a equipos en este caso individuales.
+
 ```bash 
-$> teachers_pet create_repos --organization=classroom-testing --repository=classroom-testing/create --public=true
+teachers_pet create_repos --organization=classroom-testing --repository=easytask --public=true
 ```
 
-![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/createrepo_zpswadh6kyc.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/easy-task_zpsjfdyfi3m.png)
 
-Podemos ver que se ha creado la asignacion al estudiante del repositorio original.
 
-![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/createsucc_zpsgswc5ohu.png)
+El parametro ```--repository``` asigna el nombre al repositorio.
+
+Con `--public=true` indicamos que es un repositorio publico, si no se posee una cuenta premium de github la operacion no estaria permitida a menos que no se indique que no es un repositorio privado.
+
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/easytask-done_zps3i7uhwlq.png)
+
+Podemos ver que se ha creado la asignacion de los estudiantes a los repositorios.
 
 ##Rellenado el repositorio y ejecutando Push Files
 `teachers_pet push_files`
