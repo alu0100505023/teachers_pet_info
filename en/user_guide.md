@@ -162,7 +162,7 @@ $> teachers_pet clone_repos --organization=classroom-testing --repository=easyta
 ```
 Este comando haria que se clonasesn los repositorios asignados a la lista de alumnos en la direccion actual donde se encuentre la consola de comandos. 
 
-![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/cloning_zpsqenidgzr.png)
+![](http://i125.photobucket.com/albums/p79/NooK1e_RG/gitbook/cloningok_zpsanegosn6.png)
 
 ##Abrir un issue para todos los repositorios de la organizacion
 
