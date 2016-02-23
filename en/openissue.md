@@ -8,7 +8,7 @@ Opens a single issue in each repository in the organization.
 
 ####Command line
 ```bash
-teachers_pet open_issue --organization=[organization] --repository=[repository] --title=[title] --body=[body] --labels=[labels] --students
+teachers_pet open_issue --organization --repository --title --body --labels --students
 ```
 
 ###Descriptions of parameters
