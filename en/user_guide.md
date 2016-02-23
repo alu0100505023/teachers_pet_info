@@ -125,7 +125,10 @@ Podemos ver que se ha creado la asignacion al estudiante del repositorio origina
 
 ![](/../pics/createsucc.png)
 
-##Push
+##Rellenado el repositorio y ejecutando Push Files
+`teachers_pet push_files`
+
+Tras haber creado el repositorio vacio, podremos rellenarlo con un plantilla base para nuestros alumnos empiecen a trabajar en el repository. Por ejemplo que el repositorio tenga *gitignore, rakefile, makefile,* etc. Tras haberlo creado desde nuestro repositorio local usaremos el comando **push_files** para añadir ese codigo a todos los alumnos a los que se les ha asginado la tarea del repositorio. Este comando funciona creando un Git Remote por cada repositorio del estudiante y haciendo despues un Git Push a cada uno de ellos.
 
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
@@ -149,7 +152,7 @@ Este comando haria que se clonasesn los repositorios asignados a la lista de alu
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
 
-Podemos añadir un colabolador, como otro posible profesor repositorios asignado a tareas de estudiantes.
+Podemos añadir un colabolador a cualquier persona que ha realizado un fork de tu repositorio.
 
 ##Hacer un Merge de todos los Pull Requests disponibles en un repositorio
 `teachers_pet merge_pull_requests`
