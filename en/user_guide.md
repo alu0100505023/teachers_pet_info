@@ -220,5 +220,7 @@ Como ejemplo el profesor añadio al colaborador gracias la lista creada que es e
 ##Hacer un Merge de todos los Pull Requests disponibles en un repositorio
 `teachers_pet merge_pull_requests`
 
+Permite mezclar todos los Pull Requests 
+
 
 
