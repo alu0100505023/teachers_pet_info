@@ -137,6 +137,11 @@ Podemos ver que se ha creado la asignacion de los estudiantes a los repositorios
 
 Tras haber creado el repositorio vacio y haber sido asignado con **create_repos**, podremos rellenarlo con un plantilla base para nuestros alumnos empiecen a trabajar en el repository. Por ejemplo que el repositorio tenga *gitignore, rakefile, makefile,* etc. Tras haberlo creado desde nuestro repositorio local usaremos el comando **push_files** para añadir ese codigo a todos los alumnos a los que se les ha asginado la tarea del repositorio. Este comando funciona creando un Git Remote por cada repositorio del estudiante y haciendo despues un Git Push a cada uno de ellos.
 
+```bash
+teachers_pet push_files --organization=classroom-testing --repository=easytask
+```
+En este caso ejecutando el comando, enviariamos el contenido del repositorio a las asignaciones de la tarea 
+
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
 
