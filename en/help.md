@@ -8,9 +8,7 @@ Provides information for a specific command.
 teachers_pet help [command]
 ```
 
-###Descriptions of parameters
 
-[command] : 'option'
 
 
 ####**List of commands:**
