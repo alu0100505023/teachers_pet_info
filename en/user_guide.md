@@ -172,6 +172,16 @@ Para la correccion y manejo de tareas github provee de la herramienta issues par
 
 [Documentacion disponible](https://guides.github.com/features/issues/) para la ayuda en el manejo de issues.
 
+Para abrir un issue mediante la herramienta teachers_pet es necesario tener en cuenta los siguientes paramentros que van a ser usados en el comando.
+
+`--title` Sera donde indiquemos el titulo del Issue.
+
+`--body` Se creara un archivo en formato .txt o .md donde ira el cuerpo del mensaje a enviar.
+
+`--labels` Asignara el tipo de etiqueta que queramos al Issue.
+
+`--students` Opcionalmente permitira indicar el camino del archivo de los estudiantes si no esta en './students'.
+
 
 ##Añadir colaboladores a un repositorio
 `teachers_pet add_collabolators`
