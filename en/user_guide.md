@@ -1,3 +1,15 @@
+##Crea tu organizacion en Github
+Teachers_pet es una libreria para la creacion y control de repositiorios de la plataforma Github. Asi pues, tanto el profesor como los alumnos intereseados en el uso de la aplicacion deben estar registrados como usuarios en [Github](https://github.com/).
+
+Si no se esta familiarizado con el uso de repositorios y de la plataforma Github, existe documentacion para la ayuda al usuario en la propia [web](https://help.github.com/).
+
+###Creacion y uso de la Organizacion.
+Para el uso de correcto de la aplicacion es necesario manejar la opcion de Organizaciones de la github, ya que es necesario la creacion previa de una organizacion donde asignar a los alumnos de cada clase. [Tutorial para el uso y manejo de Organizations](https://github.com/blog/674-introducing-organizations).
+
+Tras la creacion de la organizacion, invite a los alumnos a la misma. Tendran que verificar su ingreso para que salgan activos en la clase. La invitacion sera enviada por email.
+
+Tras este ultimo paso estaremos listos para empezar a usar teacher_pet.
+
 ##Notacion de parametros necesaria para cada comando
 Ademas de las opciones especificas de cada comando, la aplicacion necesitara de parametros de autentificacion Oauth de la API de Github, que seran cargados cada vez que se realice cualquier accion.
 
@@ -44,7 +56,6 @@ echo $TEACHERS_PET_TOKEN
 
 Para poder invocar a una variable de entorno hace falta usar el simbolo $, por lo que este caso en el parametro habria seria llamado tal que ``--token=$TEACHERS_PET_TOKEN ``
 
-##Crea tu organizacion en Github
 
 
 ##Crear equipos de estudiantes
