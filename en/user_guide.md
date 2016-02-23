@@ -207,7 +207,7 @@ $> teachers_pet fork --repository=professor/easytak --output=easytask.csv
 En el ejemplo el profesor indica en `--repository` su nombre en Github y el repositorio que quiere mirar, y como salida le parecio bien guardar la lista en un archivo llamado *easytask.csv.*.
 
 
-##Añadir colaboladores a un repositorio
+##Añadir colaboradores a un repositorio
 `teachers_pet add_collaborators`
 
 Podemos añadir un colaborador a cualquier persona que ha realizado un fork de tu repositorio. Una forma facil de saber quien lo ha hecho es usar la lista del comando `teachers_pet fork` anteriormente mencionado.
