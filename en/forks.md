@@ -13,11 +13,12 @@ teachers_pet forks --repository=[repository] --output=[output]
 ###Descriptions of parameters
 
 
-[repository] : 'OWNER/REPO'
+| Parameteres |  
+| -- | -- |
+| --repository = Owner/Repo| Name of the assignment repository |
+| --output = 'PATH' | (Optional) Default: './student.csv' |
 
-[output] : 'PATH' (Optional parameter)
 
-Default: 'students.csv'
 
 ####Oauth parameters
 | Parameters |  
