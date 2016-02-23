@@ -125,6 +125,8 @@ Podemos ver que se ha creado la asignacion al estudiante del repositorio origina
 
 ![](/../pics/createsucc.png)
 
+##Push
+
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
 
