@@ -10,6 +10,14 @@
 teachers_pet create_repos --organization=[organization] --repository=[repository] --public=[public]
 ```
 ###Descriptions of parameters
+
+| Parameteres |  
+| -- | -- |
+| --organization   | The name of your github organization |
+| --repository='Owner/repo' | |
+| --students = 'PATH'.| (Optional) The path to the file containing the list of user to add. Default: ./students |
+
+
 [organization]
 
 [repository]
