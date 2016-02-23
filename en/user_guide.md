@@ -140,7 +140,7 @@ Tras haber creado el repositorio vacio y haber sido asignado con **create_repos*
 ```bash
 teachers_pet push_files --organization=classroom-testing --repository=easytask
 ```
-En este caso ejecutando el comando, enviariamos el contenido del repositorio a las asignaciones de la tarea 
+En este caso ejecutando el comando, enviariamos el contenido del repositorio a las asignaciones de la tarea *easytask*
 
 ##Clonar un repositorio de una tarea
 `teachers_pet clone_repos`
