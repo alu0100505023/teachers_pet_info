@@ -7,7 +7,7 @@ Pull the list of users who have forked a particular repository.
 
 ####Command line
 ```bash
-teachers_pet forks --repository=[repository] --output=[output]
+teachers_pet forks --repository --output
 ```
 
 ###Descriptions of parameters
